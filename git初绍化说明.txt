@@ -68,7 +68,7 @@ git push -u 项目名称 master
 合并到主分支上(master)
 先切换master
 git checkout master
-git merge dev
+git merge gitreadme
 
 
 
