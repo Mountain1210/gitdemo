@@ -46,6 +46,9 @@ git checkout 分支名
 
 git push -u 项目名称 分支名称   ****git push -u gitdemo gitreadme****
 
+/*再次执行 git push -u */
+git push -u 项目名称 master
+
 
 
 ///************************遇见下列问题*************************/////
