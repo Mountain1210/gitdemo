@@ -1,1 +1,45 @@
-bbbb
+/**git使用说明**/
+
+$ git remote add gitdemo https://github.com/Mountain1210/gitdemo.git
+
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+$ git push gitdemo
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream gitdemo master
+
+///中文翻译
+$ git push -u gitdemo master   ****git push -u 项目名称 master*******
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 228 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+
+///************************好多年了都快忘了*************************/////
+以下理执行指令
+git init
+
+git add .
+
+git status
+
+git commit -m "说明文字"
+
+git remote add gitdemo https://github.com/Mountain1210/gitdemo.git *****git remote add 项目名称 自己仓库的远程地址*****
+
+git push -u 项目名称 master
+
+
+///************************遇见下列问题*************************/////
+
+
