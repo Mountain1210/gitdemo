@@ -9,7 +9,17 @@ ssh-keygen -t rsa -C "邮箱名称"
 然后复制id_rsa.pub文件里面的内容，到https://github.com/settings/keys新建一个， 
 
 /***********************************/
+克隆库
 
+git clone 
+
+git remote
+
+git fetch https://github.com/Mountain1210/gitdemo.git
+
+git push -u origin master
+
+/***********************************/
 
 
 $ git remote add gitdemo https://github.com/Mountain1210/gitdemo.git
