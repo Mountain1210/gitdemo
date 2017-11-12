@@ -24,6 +24,13 @@ git remote
 
 git fetch https://github.com/Mountain1210/gitdemo.git
 
+git add .
+
+git commit -m "ÄãµÄÎÄ×Ö"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 git push -u origin master
 
 /***********************************/
