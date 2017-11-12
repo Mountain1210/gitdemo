@@ -8,6 +8,11 @@ ssh-keygen -t rsa -C "邮箱名称"
 在本地C:\Users\你的用户名.ssh生成文件夹，里面有id_rsa和id_rsa.pub两个文件 
 然后复制id_rsa.pub文件里面的内容，到https://github.com/settings/keys新建一个， 
 
+如果你已经改变了git密码，请运行下面的代码
+两行都要运行
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 /***********************************/
 在家测试GIT
 
