@@ -34,10 +34,14 @@ git config --global user.name "Your Name"
 git push -u origin master
 
 
-在公司测试更新
+在公司测试更新命令
 
 首先要保证在相同的分支上，执行
 git pull
+
+成功
+
+发现一个问题，就是我在家里修改了git的密码，到公司里竟然没有提示重新输入密码的对话框
 
 /***********************************/
 
