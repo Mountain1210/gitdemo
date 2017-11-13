@@ -33,6 +33,12 @@ git config --global user.name "Your Name"
 
 git push -u origin master
 
+
+在公司测试更新
+
+首先要保证在相同的分支上，执行
+git pull
+
 /***********************************/
 
 
