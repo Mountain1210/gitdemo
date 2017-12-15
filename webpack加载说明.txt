@@ -17,8 +17,12 @@ module.exports = {
 			}
 		]
 	},
-	devServer:{
-
+	devServer:{//对服务进行配置
+		hot:true,
+		inline:true
+		
+		
+		
 	},
 	resolve:{//自动补全识别后缀
 		extensions:['','.js',".css",'jsx']  //自动补全识别后缀
@@ -35,5 +39,6 @@ module.exports = {
 /*
 热加载
 webpack-dev-server --port 3000 --hot --inline 必须全是两个横线，少一个也不能热加载
+webpack-dev-server --port 3000 --hot --inline --content-base ./build/  //  --content-base ./build/是说明将根目录放在当前服务build的文件夹下
 
 */
