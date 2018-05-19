@@ -1,5 +1,5 @@
 /**git使用说明**/
-
+git config --global core.quotepath false  让git支持中文
 /**这一步很重要**/
 重新生成key
 ssh-keygen -t rsa -C "邮箱名称"
@@ -195,7 +195,7 @@ git branch -r
 
 使用如下命令：
 
-git checkout -b 本地分支名x origin/远程分支名x
+git checkout -b 本地分支名 origin/远程分支名x
 1
 使用该方式会在本地新建分支x，并自动切换到该本地分支x。
 
